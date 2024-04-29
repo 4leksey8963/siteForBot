@@ -1,0 +1,45 @@
+*{
+    font-family: Arial, sans-serif;
+    font-weight:bold;
+}
+
+div{
+    background-color: #ffbd3f;
+    margin: 5px;
+    padding:10px 20px;
+    
+    border: 2px solid #fff;   
+}
+
+#grid-container{
+    background-color: #3fff6b;
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-areas: "post1 post1 post2"
+                        "post1 post1 post3"
+                        "post4 post5 post6"
+    
+
+    
+  
+}
+
+#post1{
+    grid-area: post1;
+}
+#post2{
+    grid-area: post2;
+}
+#post3{
+    grid-area: post3;
+}
+#post4{
+    grid-area: post4;
+}
+#post5{
+    grid-area: post5;
+}
+#post6{
+    grid-area: post6;
+}
